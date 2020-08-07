@@ -1,4 +1,4 @@
-# Android-Boggle-Game
+# Android Boggle Game
 
 ## Description
 Designed and built a boogle game with Java and Android Studio. Persisted users’ historical game statistics and game settings in Android Internal Storage. Implemented layouts that could gracefully respond to different screen sizes and orientations.
@@ -17,13 +17,13 @@ To list, within the time limit, as many words of the highest point value as you 
 
 From the main menu the user can choose 1. Play  Game 2. Settings 3. Game Statistics 4. Word Statistics
 
-![Image of Main](./images/UI_Screen Shot_Main.png)
+![Image of Main](./images/UI_Screen_Shot_Main.png)
 
 ### Setting Adjustment
 
 Before starting the game, you may adjust the settings for the game. Pressing "Settings" on the main page of the application, it would show 3 adjustable settings:
 
-![Image of Settings](./images/UI_Screen Shot_Setting.png)
+![Image of Settings](./images/UI_Screen_Shot_Setting.png)
 
 1. Time. Select time in minutes, from 1 to 5. Default 3 minutes
 2. Board Size. The size of the cube grid board, from 4 to 8. For example, board size 5 means it is a 5 x 5 board. Default size 4.
@@ -33,7 +33,7 @@ Before starting the game, you may adjust the settings for the game. Pressing "Se
 
 Install the boggle_game.apk in your android device. To start the game, press the "Play" button on the main page. The cube grid board would show up, with the timer (upper left corner) and the score (upper right corner). To select letters, taping on the letter on the cube grid board, selected letters will show in the text view below the board.
 
-![Image of Play](./images/UI_Screen Shot_Play.png)
+![Image of Play](./images/UI_Screen_Shot_Play.png)
 
 ### Rules
 
