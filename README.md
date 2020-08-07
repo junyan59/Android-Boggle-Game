@@ -1,7 +1,7 @@
 # Android-Boggle-Game
 
 ## Description
-The web app is built with Python Flask framework, which allows users to store, manage and share their movie watching history. The web app persists user data in Postgres database and implements a full CRUD (create, read, update and delete) RESTful APIs and UI to movies users watched. The app also offers a third-party authentication & authorization service such that users can login/register via their Google or Facebook Account. I also configured and published the application on an Ubuntu server offered by AWS Lightsail. (https://github.com/junyan59/Linux-server-configuration)
+Designed and built a boogle game with Java and Android Studio. Persisted users’ historical game statistics and game settings in Android Internal Storage. Implemented layouts that could gracefully respond to different screen sizes and orientations.
 
 ## System Requirements
 
@@ -31,7 +31,7 @@ Before starting the game, you may adjust the settings for the game. Pressing "Se
 
 ### How to play
 
-To start the game, press the "Play" button on the main page. The cube grid board would show up, with the timer (upper left corner) and the score (upper right corner). To select letters, taping on the letter on the cube grid board, selected letters will show in the text view below the board.
+Install the boggle_game.apk in your android device. To start the game, press the "Play" button on the main page. The cube grid board would show up, with the timer (upper left corner) and the score (upper right corner). To select letters, taping on the letter on the cube grid board, selected letters will show in the text view below the board.
 
 ![Image of Play](./images/UI_Screen Shot_Play.png)
 
@@ -55,7 +55,7 @@ The above 2 examples show 2 incorrect spellings techniques: 1. in "SOILS" the on
 
 ### Entering words
 
-Use the touch screen to select letter in the proper sequence on the cube grid board. After all the letter of one word been entered,  
+Use the touch screen to select letter in the proper sequence on the cube grid board. After all the letter of one word been entered,
 
 ### Reroll the board
 
