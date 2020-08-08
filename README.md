@@ -78,6 +78,8 @@ For example, one player's record for a game:
 
 The final score would be the sum of all the scores from the words (3+4+5+6) subtract the reroll board cost (5), which is 13.
 
+<img src="./images/UI_final_score.png" width=300>
+
 ### Exit the game
 
 When the timer counts to zero, the game will be ended. But you can always exit the game early by pressing the button "Quit".
@@ -102,6 +104,8 @@ The records will shows list of scores, in descending order by final game score, 
 
 3. The number of words entered in the game
 
+<img src="./images/UI_records.png" width=300>
+
 You may view the detail information of any one of the games in the list, by press on the row of that record. Another view will show you these details for the selected game:
 
 1. The game’s board size
@@ -110,12 +114,16 @@ You may view the detail information of any one of the games in the list, by pres
 
 3. Highest scoring word played in the game
 
+<img src="./images/UI_detail.png" width=300>
+
 ### Word Statistics
 
 Word statistics show the list of words used, starting from the most frequently played, displaying:
 
 1. The word
 2. The number of times the word has been played, across all games
+
+<img src="./images/UI_word_stat.png" width=300>
 
 ## Architectural Design
 
