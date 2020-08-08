@@ -116,3 +116,47 @@ Word statistics show the list of words used, starting from the most frequently p
 
 1. The word
 2. The number of times the word has been played, across all games
+
+## Architectural Design
+
+### Component Diagram
+
+The system has several components each of which may encapsulate certain elements of the class structure into three functional areas:
+
+* Game Control/User Interface
+  * Containing the Settings and High level game initiation
+     * GameController Class
+* Game Play
+  * Containing the functions needed to play the game
+    * Game Class
+    * Letter Class
+    * Board Class
+    * Word Class
+* Game Statistics
+  * Contains the data recorded for each Game’s stats
+    * GameStatistics Class
+
+![Image of Component Diagram](./Docs/images/component-diagram.png)
+
+### Deployment Diagram
+
+Because this version of the application doesn’t require persistent storing of data (between runs of the application) the entire application is stored and run directly on the device and doesn’t require a special server or database component.
+
+### Class Diagram
+
+![Image of Design](./Design-Team/images/team-design-D4.png)
+
+### Other Diagrams
+
+The sequence diagram below describes a sequence of events only for the playing of the game. The checking of statistics will be handled within the GUI interface.
+
+![Image of Sequence Diagram](./images/sequence-diagram.png)
+
+## User Interface Design
+
+![Image of GUI Diagram](./Docs/images/ui-diagram1.png)
+
+![Image of GUI Diagram](./Docs/images/ui-diagram2.png)
+
+Only the letters that are eligible to select on are showing as blue. The letters need to be adjacent to at least one existing selected letter.
+
