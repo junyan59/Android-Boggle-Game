@@ -16,8 +16,8 @@ To list, within the time limit, as many words of the highest point value as you 
 ### Main Menu
 
 From the main menu the user can choose 1. Play  Game 2. Settings 3. Game Statistics 4. Word Statistics
+<img src="./images/UI_Screen_Shot_Main.png" width=300>
 
-![Image of Main](./images/UI_Screen_Shot_Main.png | width = 200)
 
 ### Setting Adjustment
 
