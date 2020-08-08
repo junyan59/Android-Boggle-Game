@@ -16,11 +16,13 @@ To list, within the time limit, as many words of the highest point value as you 
 ### Main Menu
 
 From the main menu the user can choose 1. Play  Game 2. Settings 3. Game Statistics 4. Word Statistics
+
 <img src="./images/UI_Screen_Shot_Main.png" width=300>
 
 ### Setting Adjustment
 
 Before starting the game, you may adjust the settings for the game. Pressing "Settings" on the main page of the application, it would show 3 adjustable settings:
+
 <img src="./images/UI_Screen_Shot_Setting.png" width=300>
 
 1. Time. Select time in minutes, from 1 to 5. Default 3 minutes
